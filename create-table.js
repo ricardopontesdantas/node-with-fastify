@@ -3,7 +3,7 @@ import { sql } from "./db.js";
 // sql `DROP TABLE IF EXISTS nodedozero.videos`.then(() => console.log("table dropped"));
 
 sql `
-    CREATE TABLE nodedozero.videos (
+    CREATE TABLE videos (
         id TEXT PRIMARY KEY,
         title TEXT,
         description TEXT,
